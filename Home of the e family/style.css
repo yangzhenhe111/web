@@ -139,6 +139,7 @@ input{
 }
 .nav li:hover {
 	background-color: #fd0304;
+	border-radius:4px;
 }
 .nav li:hover a{
 	color:#fff;
