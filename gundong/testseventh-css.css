@@ -1,0 +1,96 @@
+/*
+* @Author: Administrator·杨振贺
+* @Date:   2019-12-08 18:20:51
+* @Last Modified by:   Administrator·杨振贺
+* @Last Modified time: 2019-12-13 21:42:33
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.p{
+	height: 20px;
+	line-height: 20px;
+	background-color: #888;
+	color: red;
+	position: relative;
+}
+.p>img{
+	position: absolute;
+	top: 2px;
+	left: 300px;
+	margin-right: 10px;
+}
+.p>div{
+	width: 900px;
+	height: 20px;
+	position: absolute;
+	left: 330px;
+	top: 0px;
+	overflow: hidden;
+	position: relative;
+}
+#span{
+	position: absolute;
+	left: 900px;
+	height: 20px;
+}
+#box{
+	width: 1200px;
+	height: 382px;
+	position: relative;		
+	margin: 30px auto;
+	overflow: hidden;
+}
+#logo{
+	position: absolute;
+	width: 8400px;
+	left: -1200px;
+}
+#logo>img{
+	float: left;
+}
+.but{
+	display: inline-block;
+	width: 30px;
+	background-color: red;
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 180px;
+	line-height: 40px;
+	opacity: 0;
+	text-align: center;
+}
+#left{
+	/* display: none; */
+	left: 20px;
+}
+#right{
+	/* display: none; */
+	right: 20px;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 500px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 20px;
+	background-color: #eee;
+	border-radius: 50%;
+	margin : 5px 10px;
+	color: #666;
+	text-align: center;
+}
+.li{
+	background-color: red;
+	color: #fff;
+}
